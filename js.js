@@ -24,8 +24,8 @@ function geraResultado() {
 }
 
 function atualizaVisor(valor) {
-    var input = document.getElementById('visor');
-    input.value = valor;
+    var div = document.getElementById('visor');
+    div.innerHTML = valor;
 }
 
 function numero(numero) {
